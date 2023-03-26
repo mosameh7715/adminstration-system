@@ -1,0 +1,27 @@
+***********************FIRST*****************************
+
+-The project has database which consists of three endPoints [employeesData,currentLogedEmp,employeeDataBending]
+	1)emloyeesDate-end point: is the actual employees exists on the system after admin confirmation 
+	2)currentLogedEmp-end point : is the current logged in employee who may be (employee or security)
+	3)employeeDataBending-end point : is the pending applicant who apply on registraion form waiting for admin confirmation 
+
+***********************SECOND*****************************
+-The project has designed for only one admin who has:
+	username: admin_999
+	password: iti@123
+
+***********************THIRD*****************************
+-PLease take care that the project is automaticly apply attendence data at 4:00 PM if:
+	- employee forgot to punchout
+	- employee didn't came today 
+
+**in that order if you try to apply attendece after 4:00 PM for any employee exits in system that won't work 
+to turn-off these two features -> from file "./js/security.js" you will find two called functions:
+	1)checkAbsence();
+	2)checkPunchOut();
+turn it off and it will work
+
+**********************FOURTH***************************
+
+I want to thank you for your big efforts with us, i really got great benefits from your caorse. 
+wishing you all the best Eng. Nasr..

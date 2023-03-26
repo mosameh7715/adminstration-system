@@ -1,0 +1,22 @@
+button > a {
+  text-decoration: none;
+}
+header {
+  height: 20vh;
+}
+section {
+  height: 80vh;
+}
+
+body > div > section > a {
+  border-radius: 200px !important;
+}
+
+body > div > section > a {
+  font-size: 1.3rem;
+}
+
+#navbarNav > ul > li > a:hover {
+  cursor: pointer;
+  background-color: rgba(209, 206, 206, 0.168) !important;
+}

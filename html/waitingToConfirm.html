@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>waitingToConfirm</title>
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="./../css/waitingToConfirm.css" rel="stylesheet" />
+    <style>
+      .bending {
+        background-image: linear-gradient(
+          to top right,
+          rgb(16 21 43 / 1),
+          rgb(39 25 60 / 0.7),
+          rgb(49 55 105 / 1)
+        );
+        border-radius: 20px;
+      }
+      div {
+        background-image: linear-gradient(
+            to bottom right,
+            rgb(56, 57, 62),
+            rgba(24, 19, 32, 0.85),
+            rgb(25, 28, 40)
+          ),
+          url(./../img/BusinessMen.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container-fluid d-flex justify-content-center align-items-center"
+    >
+      <section
+        class="d-flex flex-column align-items-center col-lg-3 col-md-5 col-sm-7 col-8 py-5 bending"
+      >
+        <p class="text-light text-secondary sign-in1 text-xl-center lead px-5">
+          Wainting for admin to admit you check your Email later..
+        </p>
+        <button class="btn btn-light">Back to Main</button>
+      </section>
+    </div>
+    <script src="./../js/waitingToConfirm.js"></script>
+  </body>
+</html>

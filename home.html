@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <style>
+      body > div {
+        background-image: linear-gradient(
+            to top right,
+            rgb(16 21 43 / 1),
+            rgb(39 25 60 / 0.7),
+            rgb(49 55 105 / 1)
+          ),
+          url(img/home.jpeg);
+        background-position: center;
+        background-size: cover;
+        box-shadow: -2px -2px 10px #10152b, 2px 2px 20px#10152b !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="d-flex flex-row justify-content-around pt-4">
+        <nav class="ms-0 ms-sm-5 align-self-center d-flex">
+          <img src="img/logowhite.png" class="img-fluid" alt="20%" />
+          <span
+            class="align-self-center ms-3 text-light d-none d-sm-inline-block"
+          >
+            <span class="lead display-6">SAMEH</span
+            ><span class="ms-1 display-6 fw-bold">COMPANY</span>
+          </span>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-light btn" href="login-register.html"
+                  >Login/Register</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section
+        class="d-flex flex-column align-items-center justify-content-center"
+      >
+        <p class="fw-normal text-light display-1 text-center">
+          ATTENDANCE & LEAVES
+        </p>
+        <p class="text-light fs-6 text-center">
+          An efficant tracking system and dynamic recruiting software
+        </p>
+        <!-- <button
+          class="btn btn-success px-5 py-3 col-sm-5 col-md-4 col-lg-3 btn"
+        > -->
+        <a
+          href="login-register.html"
+          class="text-light btn btn-success px-5 py-3 col-sm-5 col-md-4 col-lg-3 btn"
+          >Get Started</a
+        >
+        <!-- </button> -->
+      </section>
+    </div>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

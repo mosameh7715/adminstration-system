@@ -1,0 +1,144 @@
+{
+  "employeesData": [
+    {
+      "id": 2,
+      "firstName": "Mostafa",
+      "lastName": "Elnady",
+      "address": "Egypt Zagzig",
+      "email": "mostafaelnady1997@gmail.com",
+      "age": "27",
+      "userName": "Mostafa_792",
+      "password": "Elnady@232",
+      "title": "employee",
+      "attendence": [
+        {
+          "punchInDate": "1/25/2023",
+          "punchInTime": null,
+          "punchOutDate": null,
+          "punchOutTime": null,
+          "late": "--",
+          "absence": true
+        },
+        {
+          "punchInDate": "2/24/2023",
+          "punchInTime": null,
+          "punchOutDate": null,
+          "punchOutTime": null,
+          "late": "--",
+          "absence": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Ahmed",
+      "lastName": "Turky",
+      "address": "Egypt mahla",
+      "email": "Ahmedturky75@gmail.com",
+      "age": "27",
+      "userName": "Ahmed_886",
+      "password": "Turky@900",
+      "title": "security",
+      "attendence": [
+        {
+          "punchInDate": "1/25/2023",
+          "punchInTime": null,
+          "punchOutDate": null,
+          "punchOutTime": null,
+          "late": "--",
+          "absence": true
+        },
+        {
+          "punchInDate": "2/24/2023",
+          "punchInTime": null,
+          "punchOutDate": null,
+          "punchOutTime": null,
+          "late": "--",
+          "absence": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "firstName": "Sayed",
+      "lastName": "Ali",
+      "address": "Egypt Mansoura",
+      "email": "sayeddali225@gmail.com",
+      "age": "25",
+      "userName": "Sayed_25",
+      "password": "Ali@429",
+      "title": "employee",
+      "attendence": [
+        {
+          "punchInDate": "1/25/2023",
+          "punchInTime": null,
+          "punchOutDate": null,
+          "punchOutTime": null,
+          "late": "--",
+          "absence": true
+        },
+        {
+          "punchInDate": "2/24/2023",
+          "punchInTime": null,
+          "punchOutDate": null,
+          "punchOutTime": null,
+          "late": "--",
+          "absence": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "firstName": "moahemd",
+      "lastName": "sameh",
+      "address": "cairo tanta",
+      "email": "mosameh764@gmail.com",
+      "age": "25",
+      "userName": "moahemd_850",
+      "password": "sameh@667",
+      "title": "employee",
+      "attendence": [
+        {
+          "punchInDate": "2/24/2023",
+          "punchInTime": " 4:38:11 PM",
+          "punchOutDate": "2/24/2023",
+          "punchOutTime": " 4:38:13 PM",
+          "late": "8 hours : 8 mins",
+          "absence": true
+        }
+      ]
+    }
+  ],
+  "currentLogedEmp": [
+    {
+      "id": 1,
+      "firstName": "Ahmed",
+      "lastName": "Turky",
+      "address": "Egypt mahla",
+      "email": "Ahmedturky75@gmail.com",
+      "age": "27",
+      "userName": "Ahmed_886",
+      "password": "Turky@900",
+      "title": "security",
+      "attendence": [
+        {
+          "punchInDate": "1/25/2023",
+          "punchInTime": null,
+          "punchOutDate": null,
+          "punchOutTime": null,
+          "late": "--",
+          "absence": true
+        },
+        {
+          "punchInDate": "2/24/2023",
+          "punchInTime": null,
+          "punchOutDate": null,
+          "punchOutTime": null,
+          "late": "--",
+          "absence": true
+        }
+      ]
+    }
+  ],
+  "employeeDataBending": []
+}
